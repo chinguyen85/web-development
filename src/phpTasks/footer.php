@@ -3,8 +3,8 @@
       <div class="col-sm-5">
           <ul>
             <li class="center-item"><a href="ex2.php">Home</a></li>
-            <li class="center-item"><a href="ex1.php">Exercise 1</a></li>
-            <li class="center-item"><a href="ex2.php">Exercise 2</a></li>
+            <li class="center-item"><a href="about.php">About</a></li>
+            <li class="center-item"><a href="contact.php">Contact</a></li>
           </ul>
       </div>
       <div class="col-sm-3">
