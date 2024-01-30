@@ -15,16 +15,16 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="ex2.php"><i>Chi Nguyen</i></a>
+              <a class="navbar-brand" href="ex1.php"><i>Chi Nguyen</i></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="ex2.php">Home</a>
+                    <a class="nav-link" aria-current="page" href="ex1.php">Exercise 1</a>
                   </li>
-                  <li class="nav-item dropdown">
+                  <!--li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       PHP Exercises
                     </a>
@@ -38,12 +38,24 @@
                       <li><a class="dropdown-item" href="ex6.php">Ex 6: Arrays</a></li>
                       <li><a class="dropdown-item" href="ex7.php">Ex 7: CRUD APP</a></li>
                     </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="ex1.php">Exercise 1</a>
-                  </li>
+                  </li-->
                   <li class="nav-item">
                     <a class="nav-link" href="ex2.php">Exercise 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="ex3.php">Exercise 3</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="ex4.php">Exercise 4</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="ex5.php">Exercise 5</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="ex6.php">Exercise 6</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="ex7.php">Exercise 7</a>
                   </li>
                 </ul>
                 <select class="selectpicker" data-width="fit">
