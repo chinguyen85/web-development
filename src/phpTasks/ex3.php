@@ -9,7 +9,7 @@
     <p><i>Create a simple HTML form to collect the user Firstname and Lastname.
         Use the echo statement to print “Hello [Firstname] [Lastname], You are welcome to my site.” inside an h3 tag.
     </i></p>
-    <form class="row g-3" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+    <form name="Ex3_form" class="row g-3" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
         <div class="col-12">
             <div style="margin-top:-5px"></div>
             <label for="inputName" class="form-label">First Name</label>
