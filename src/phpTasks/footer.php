@@ -1,11 +1,11 @@
-    </div>
+        </div>
 
-    <div class="right-col col-md-6">
-        <img src="https://getbootstrap.com/docs/5.3/assets/img/bootstrap-themes@2x.png" alt="getBootstrap">
-    </div>
-</div><!-- body-page end -->
+        <div class="right-col col-md-6">
+          <img src="https://getbootstrap.com/docs/5.3/assets/img/bootstrap-themes@2x.png" alt="getBootstrap">
+        </div>
+    </div><!-- body-page end -->
 
-<footer class="row mb-0">
+    <footer class="row mb-0">
       <div class="col-sm-4">&copy Chi Nguyen 2024.</div>
       <div class="col-sm-5">
           <ul>
@@ -35,7 +35,8 @@
         echo "<p><i>Last modified " . $fileName . " on " . $lastModifiedTime . ".</i></p>";
       ?>
     </footer>
+  </div><!-- container end -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
