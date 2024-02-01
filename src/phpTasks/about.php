@@ -19,9 +19,4 @@
         <p>Voluptate hic modi molestias aperiam, maiores in odit reiciendis libero quos dignissimos vero voluptatem quaerat reprehenderit adipisci animi doloribus error, magnam facere.</p>
     </div>
 
-    <div class="right-col col-md-6">
-        <img src="https://getbootstrap.com/docs/5.3/assets/img/bootstrap-themes@2x.png" alt="getBootstrap">
-    </div>
-</div><!-- body-page end -->
-
 <?php include 'footer.php'; ?>

@@ -26,9 +26,4 @@
         <a class="btn btn-primary" href="https://gist.github.com/dipaish/9ad182888aeb87bb253e11ca96af61a8" role="button" target="blank">Read more</a>  
     </div>
 
-    <div class="right-col col-md-6">
-        <img src="https://getbootstrap.com/docs/5.3/assets/img/bootstrap-themes@2x.png" alt="getBootstrap">
-    </div>
-</div><!-- body-page end -->
-
 <?php include 'footer.php'; ?>
