@@ -67,3 +67,6 @@
             </div>
           </nav>
     </header>
+
+    <div class="row body-page">
+      <div class="left-col col-md-6">

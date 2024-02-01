@@ -1,4 +1,6 @@
-     <div class="right-col col-md-6">
+    </div>
+
+    <div class="right-col col-md-6">
         <img src="https://getbootstrap.com/docs/5.3/assets/img/bootstrap-themes@2x.png" alt="getBootstrap">
     </div>
 </div><!-- body-page end -->
