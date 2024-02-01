@@ -35,6 +35,39 @@
             </form>
         </div>
 
+        <h2>HTML Table</h2>
+        <p><i>Prepare a simple HTML table and apply Bootstrap styles to it.
+            Note, you have already done a table in Exercise 1. If you wish, you can use the same table.
+        </i></p>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">S.n</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>John</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Alice</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Bob</td>
+                        <td>5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
         <h2>String Variables</h2>
         <p><i>Write a PHP script with two string variables ($str1 = "Hello"; $str2 = "World";).
             Join them together and print the length of the string.
