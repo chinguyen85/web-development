@@ -49,7 +49,7 @@
                     <a class="nav-link" href="ex4.php">Exercise 4</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="ex5.php">Exercise 5</a>
+                    <a class="nav-link" href="https://github.com/hiephamk/Web_PHP_Group_13/blob/main/README.md">Exercise 5</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="ex6.php">Exercise 6</a>
