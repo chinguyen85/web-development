@@ -1,7 +1,7 @@
 <?php 
     $title = "Successfully Submitted - Chi Nguyen";
 ?>
-<?php include 'header.php'; ?>
+<?php include_once 'header.php'; ?>
 
 <div class="row body-page">
     <div class="left-col col-md-6">
@@ -15,4 +15,4 @@
         ?>
     </div>
 
-<?php include 'footer.php'; ?>
+<?php include_once 'footer.php'; ?>

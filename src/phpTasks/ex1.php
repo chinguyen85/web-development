@@ -2,7 +2,7 @@
     $title = "Exercise 1 - Chi Nguyen";
     $md = "PHP exercise: Getting Started with PHP";
 ?>
-<?php include 'header.php'; ?>
+<?php include_once 'header.php'; ?>
 
 <h3>3.1 Write PHP code to output the following message:
     Hello world! My name is "David"
@@ -57,4 +57,4 @@
 <img src="./images/ex1-Docker.png" style = "width: 95%" alt="Docker screenshot">
 <!--a class="btn btn-primary" href="https://gist.github.com/dipaish/9ad182888aeb87bb253e11ca96af61a8" role="button">Read more</a-->
 
-<?php include 'footer.php'; ?>
+<?php include_once 'footer.php'; ?>

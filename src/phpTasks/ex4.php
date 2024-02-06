@@ -2,7 +2,7 @@
     $title = "Exercise 4 - Chi Nguyen";
     $md = "PHP exercise: Control Flow & Loops";
 ?>
-<?php include 'header.php'; ?>
+<?php include_once 'header.php'; ?>
 
 <!--Question 2-->
 <h2>If-Else</h2>
@@ -122,4 +122,4 @@
     }
 ?>
 
-<?php include 'footer.php'; ?>
+<?php include_once 'footer.php'; ?>

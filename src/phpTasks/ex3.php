@@ -2,7 +2,7 @@
     $title = "Exercise 3 - Chi Nguyen";
     $md = "PHP exercise: Variable, Strings & Operators";
 ?>
-<?php include 'header.php'; ?>
+<?php include_once 'header.php'; ?>
 
 <div class="inputForm">
     <h2>Form Creation</h2>
@@ -118,4 +118,4 @@
     echo "<p>Please see the footer section.</p>";
 ?>
 
-<?php include 'footer.php'; ?>
+<?php include_once 'footer.php'; ?>

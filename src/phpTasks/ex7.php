@@ -2,7 +2,7 @@
     $title = "Exercise 7 - Chi Nguyen";
     $md = "PHP exercise: CRUD App";
 ?>
-<?php include 'header.php'; ?>
+<?php include_once 'header.php'; ?>
 
 <h2>Input Your Information Below</h2>
 <form name="form1" method="post" action="ex7-process.php">
@@ -40,4 +40,4 @@
     <button type="submit" class="btn btn-primary" name="submit">Submit</button>
 </form>
 
-<?php include 'footer.php'; ?>
+<?php include_once 'footer.php'; ?>

@@ -2,7 +2,7 @@
     $title = "Exercise 2 - Chi Nguyen";
     $md = "PHP exercise: Universal Header & Footer";
 ?>
-<?php include 'header.php'; ?>
+<?php include_once 'header.php'; ?>
 
 <h1>Create universal header, footer, or sidebar as per your layout done in the previous course.
 </h1>
@@ -23,4 +23,4 @@
     Please submit the links to the "ex1.php" file from both your GitHub repository and shell.hamk.fi on Moodle.</p>
 <a class="btn btn-primary" href="https://gist.github.com/dipaish/9ad182888aeb87bb253e11ca96af61a8" role="button" target="blank">Read more</a>
 
-<?php include 'footer.php'; ?>
+<?php include_once 'footer.php'; ?>
