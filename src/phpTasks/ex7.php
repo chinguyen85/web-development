@@ -5,7 +5,7 @@
 <?php include_once 'header.php'; ?>
 
 <h2>Input Your Information Below</h2>
-<form name="form1" method="post" action="ex7-process.php">
+<form name="form1" method="post" action="ex7_process.php">
     <div class="form-group">
         <div class="row">
             <div class="col">
