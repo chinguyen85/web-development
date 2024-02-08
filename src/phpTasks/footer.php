@@ -1,6 +1,11 @@
         </div>
 
         <div class="right-col col-md-6">
+          <h3> List of CRUD App Tasks </h3>
+          <ul>
+            <li> <a href="ex7.php"> Create Data </a></li>
+            <li> <a href="ex7_read.php"> Read Data </a></li>
+          </ul>
           <img src="https://getbootstrap.com/docs/5.3/assets/img/bootstrap-themes@2x.png" alt="getBootstrap">
         </div>
     </div><!-- body-page end -->

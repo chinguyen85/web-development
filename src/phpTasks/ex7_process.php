@@ -1,6 +1,6 @@
 <?php
 // Connect to the database
-    include_once 'ex7_db.php';
+    include_once 'ex7_db1.php';
 
 // Check if the form is submitted with data
 if(isset($_POST['submit'])){
