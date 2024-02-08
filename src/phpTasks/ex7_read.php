@@ -5,7 +5,7 @@
 <?php include_once 'header.php'; ?>
 
 <?php
-include_once 'ex7_db.php';
+include_once 'ex7_db1.php';
 // SQL query to retrieve data from the 'studentsinfo' table
 $sql = "SELECT * FROM students";
 
