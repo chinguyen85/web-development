@@ -5,6 +5,7 @@
           <ul>
             <li> <a href="ex7.php"> Create Data </a></li>
             <li> <a href="ex7_read.php"> Read Data </a></li>
+            <li> <a href="ex7_update.php"> Update & Delete Data </a></li>
           </ul>
           <img src="https://getbootstrap.com/docs/5.3/assets/img/bootstrap-themes@2x.png" alt="getBootstrap">
         </div>

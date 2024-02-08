@@ -1,10 +1,16 @@
+<?php 
+  $title = "Exercise 7 - Chi Nguyen";
+  $md = "PHP exercise: CRUD App";
+?>
+<?php include_once 'header.php'; ?>
+
 <?php
 include 'ex7_db1.php';
 $a = $_GET['id'];
 $result = mysqli_query($conn,"SELECT * FROM students WHERE id= '$a'");
 $row= mysqli_fetch_array($result);
 ?>
-<h2> Update your information below: </h2>
+<h2> Update your information below </h2><br>
 <form name= "form1" method="post" action="">
   <div class="row">
     <div class="col">
@@ -66,3 +72,5 @@ if (isset($_POST['submit'])){
 $conn->close();
 
 ?>
+
+<?php include_once 'footer.php'; ?>
