@@ -10,6 +10,7 @@
 ?>
 <script> // Javascript code
     document.write("I am a student at HAMK, studying Computer Applications.");
+    window.alert("This is an alert box."); // trigger an alert box
 </script>
 
 <noscript>
@@ -22,6 +23,15 @@
 <p>Totam ab necessitatibus dolorum fugit quo at odio velit ipsam, porro molestiae ducimus repellendus quis fuga, provident, atque libero nulla officia voluptatibus?</p>
 <p>Quo obcaecati sint nemo velit numquam omnis quidem distinctio laborum beatae ipsa iste expedita quam, itaque veritatis delectus minima incidunt! Quidem, culpa?</p>
 <p>Tempore voluptatum praesentium non repudiandae dolor animi quasi voluptatem provident reiciendis blanditiis aliquam sunt asperiores consequuntur dignissimos quia labore assumenda, ut molestias.</p>
-<p>Voluptate hic modi molestias aperiam, maiores in odit reiciendis libero quos dignissimos vero voluptatem quaerat reprehenderit adipisci animi doloribus error, magnam facere.</p>
+<!--p>Voluptate hic modi molestias aperiam, maiores in odit reiciendis libero quos dignissimos vero voluptatem quaerat reprehenderit adipisci animi doloribus error, magnam facere.</p> -->
+
+<button class="btn btn-primary" onclick="document.write('This is a message after the page has finished loading.')">Click Here</button>
+
+<!--script> // document.write() method after loading the page.
+    function hello() {
+        document.write("This is a message after the page has finished loading.");
+    }
+</script>
+<button class="btn btn-primary" onclick="hello()">Click Here</button>-->
 
 <?php include 'footer.php'; ?>
