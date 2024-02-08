@@ -1,10 +1,10 @@
 <?php
-include 'ex7_db.php';
+include 'ex7_db1.php';
 $a = $_GET['id'];
 $result = mysqli_query($conn,"SELECT * FROM students WHERE id= '$a'");
 $row= mysqli_fetch_array($result);
 ?>
-<h2> Update your information below </h2>
+<h2> Update your information below: </h2>
 <form name= "form1" method="post" action="">
   <div class="row">
     <div class="col">
@@ -21,7 +21,7 @@ $row= mysqli_fetch_array($result);
     </div>
 
     <div class="col">
-      <input type="text" class="form-control" placeholder="Group ID" name="groupId" required value="<?php echo $row['groupId']; ?>">    
+      <input type="text" class="form-control" placeholder="Group_id" name="group_id" required value="<?php echo $row['group_id']; ?>">    
     </div>
 
   </div>
@@ -43,7 +43,9 @@ if (isset($_POST['submit'])){
     
     $fname = $_POST['fname'];
     $lname = $_POST['lname'];
-    $query = mysqli_query($conn,"UPDATE studentsinfo set first_name='$fname', last_name='$lname' where id='$a'");
+    $city = $_POST['city'];
+    $group_id = $_POST['group_id'];
+    $query = mysqli_query($conn,"UPDATE students set first_name='$fname', last_name='$lname', city='$city', group_id='$group_id' where id='$a'");
     if($query){
         echo "<h2>Your information is updated Successfully</h2>";
         // if you want to redirect to update page after updating
@@ -52,7 +54,7 @@ if (isset($_POST['submit'])){
     }
 
     if (isset($_POST['delete'])){
-        $query = mysqli_query($conn,"DELETE FROM studentsinfo where id='$a'");
+        $query = mysqli_query($conn,"DELETE FROM students where id='$a'");
         if($query){
             echo "Record Deleted with id: $a <br>";
             // if you want to redirect to update page after updating
