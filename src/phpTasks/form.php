@@ -53,8 +53,8 @@ include_once "header.php";
     function validateEmail() {
         const email = document.getElementById("email").value;
         const emailError = document.getElementById("emailError");
-        if (email === "" || email.includes("@") === -1) {
-            nameError.innerHTML = "Email must contain @";
+        if (email === "" || !email.includes("@")) {
+            emailError.innerHTML = "Email must contain @";
             return false;
         }
         else {
@@ -68,7 +68,7 @@ include_once "header.php";
         const password = document.getElementById("password").value;
         const passwordError = document.getElementById("passwordError");
         if (password.length < 6) {
-            passwordError.innerHTML("Password must be at least 6 characters.");
+            passwordError.innerHTML= "Password must be at least 6 characters.";
             return false;
         }
         else {
@@ -82,7 +82,7 @@ include_once "header.php";
         const age = document.getElementById("age").value;
         const ageError = document.getElementById("ageError");
         if (age < 18) {
-            ageError.innerHTML("You must be at least 18 years old");
+            ageError.innerHTML = "You must be at least 18 years old";
             return false;
         }
         else {
